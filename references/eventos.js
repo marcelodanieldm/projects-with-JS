@@ -18,3 +18,8 @@ function cambiarColor(){
 boton.addEventListener('click',function(){
   cambiarColor();
 });
+
+// click adeventlistener con mouseover
+boton.addEventListener('mouseover',function(){
+  boton.style.background='yellow';
+});
