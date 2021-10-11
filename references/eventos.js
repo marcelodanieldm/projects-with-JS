@@ -13,3 +13,8 @@ function cambiarColor(){
   return true;
    
 }
+
+// click adeventlistener
+boton.addEventListener('click',function(){
+  cambiarColor();
+});
