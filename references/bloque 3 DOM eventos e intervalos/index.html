@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DOM eventos e intervalos</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--formulario nombre, apellido y edad. Boton enviar(evento submit)-->
+    <div class="box">
+<form action="#" method="post" id="formulario" onsubmit="return false;">
+  <label for="nombre">Nombre:</label></br>
+  <imput type="text" name="nombre" id="nombre"/>
+
+  <label for="apellido">Apellido:</label><br>
+  <imput type="text"name="apellido" id="apellido"/>
+
+  <label for="edad">Edad:</label><br>
+  <imput type="number"name="edad" id="edad"/>
+
+<submit type="submit" value="enviar" id="submit"></submit><br>
+
+</form>
+</div>
+
+<div class="box">
+  <h2>Info de usuario.</h2>
+
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
