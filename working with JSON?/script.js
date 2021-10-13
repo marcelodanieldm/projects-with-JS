@@ -3,7 +3,7 @@ var movies={
   title:"Forrest Gump",
   year:"1996",
   country:"USA"
-}
+};
 
 var box_movies= document.querySelector("#movies");
 var index;
