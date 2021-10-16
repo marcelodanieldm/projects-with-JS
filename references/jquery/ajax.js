@@ -7,5 +7,11 @@ $(document).ready(function(){
        $("#datos").append(<p>element.first_name<p/>);
      });
   });
+  var usuario={
+        name:"Marcelo",
+        site:"elrafa.com",
+  };
+  $.post('https://reqres.in/api/users', usuario, function(response){
+    console.log(response);
 
 });
