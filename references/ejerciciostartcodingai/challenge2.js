@@ -161,33 +161,33 @@ unidad la quiere convertir.
 //C a F (C x 9/5) + 32
 // F a C (F -32) x 5/9
 
-// const convertTemperature = (temperature, target) => {
-//   const parsedTemp = +temperature;
-//   const parsedTarget = target.toLowerCase();
+ const convertTemperature = (temperature, target) => {
+   const parsedTemp = +temperature;
+   const parsedTarget = target.toLowerCase();
 
-//   if (!parsedTemp && parsedTemp !== 0) {
-//     alert("El valor ingresado no es valido");
-//     return;
-//   }
+   if (!parsedTemp && parsedTemp !== 0) {
+     alert("El valor ingresado no es valido");
+     return;
+   }
 
-//   if (parsedTarget === "celsius") {
-//     return ((parsedTemp - 32) * 5) / 9;
-//   } else if (parsedTarget === "faranheit") {
-//     return (parsedTemp * 9) / 5 + 32;
-//   } else {
-//     alert("El formato ingresado no es valido");
-//     return;
-//   }
-// };
+   if (parsedTarget === "celsius") {
+     return ((parsedTemp - 32) * 5) / 9;
+   } else if (parsedTarget === "faranheit") {
+     return (parsedTemp * 9) / 5 + 32;
+   } else {
+     alert("El formato ingresado no es valido");
+     return;
+   }
+ };
 
-// const temperature = prompt("Ingresa la temperatura");
-// const target = prompt("Ingresa a que unidad de medida la queres convertir");
+ const temperature = prompt("Ingresa la temperatura");
+ const target = prompt("Ingresa a que unidad de medida la queres convertir");
 
-// const response = convertTemperature(temperature, target);
+ const response = convertTemperature(temperature, target);
 
-// if (response !== undefined) {
-//   alert(`La temperatura en ${target.toLowerCase()} es ${response}`);
-// }
+ if (response !== undefined) {
+   alert(`La temperatura en ${target.toLowerCase()} es ${response}`);
+ }
 
 /*
 4) Crear un programa para calcular el total de una compra. Para ello, se le
