@@ -6,7 +6,7 @@ var movies={
 };
 
 var box_movies= document.querySelector("#movies");
-var index;
+var index ;
 for(index in movies){
    var p=document.createElement('p');
    p.append(movies[index].title +'-'+ movies[index].year);
