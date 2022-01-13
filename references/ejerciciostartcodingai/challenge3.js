@@ -39,12 +39,15 @@ const convertTemperature = (temperature, target)=>{
   if(parsedTarget === "celsius"){
     return ((parsedTemp - 32)*5)/9;
     else if(parsedTarget === "farenheit"){
+      return (parsedTemp *9)/5 + 32;
     
     }else{
     alert("el formato ingresado no es valido");
       return;
     }
   
-  }
-  }
-}
+  };
+  const temperature = prompt("Ingresa la temperatura");
+  const target = prompt("Ingresa a que unidad de medida queres convertir");
+  const response = convertTemperature(temperature, target);
+  
