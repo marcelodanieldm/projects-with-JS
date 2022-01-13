@@ -5,10 +5,12 @@ const FindNumberType = (number)=>{
 let message = "";
 const parsedNumber= +number;
   
-  if(!parsedNumber) message="El valor ingresado no es un numero";
+  if(!parsedNumber && parsedNumber !==0) message="El valor ingresado no es un numero";
+  return message;
   
   if(parsedNumber===0){
     message = "El numero ingresado es 0";
+    
   }
     else if(parsedNumber > 0){ message = "El numero ingresado es positivo";
   }                            
