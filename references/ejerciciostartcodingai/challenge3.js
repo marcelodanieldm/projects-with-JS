@@ -61,4 +61,16 @@ const convertTemperature = (temperature, target)=>{
   y al colocar la palabra total, devolver el valor de la compra.
   */
   
-  
+  const calculateTotal = ()=>{
+  let total = 0;
+    do{
+    const subtotal = prompt("Ingresa el valor del producto");
+      if(+subtotal){
+    total += subtotal;
+      
+    }
+    } while(subtotal.toLowerCase()==="total");
+    return total:
+     
+  };
+  console.log(calculatetotal());
