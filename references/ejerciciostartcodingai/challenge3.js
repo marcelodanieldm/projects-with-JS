@@ -55,3 +55,10 @@ const convertTemperature = (temperature, target)=>{
    alert(`La temperatura en ${target.toLowerCase()} es ${response}`);
   }
   
+  
+  /* 3. Crear un programa que calcule el total de una compra.
+  Pedirle al usuario que ingrese el precio de cada producto
+  y al colocar la palabra total, devolver el valor de la compra.
+  */
+  
+  
