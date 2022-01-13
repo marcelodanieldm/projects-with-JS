@@ -80,3 +80,16 @@ const convertTemperature = (temperature, target)=>{
   console.log(calculateTotal());
   const response = calculateTotal();
   alert(response);
+  
+  // truty and falsy
+  // valores que se van a convertir a true y falsy los que se van a convertir a false
+  //falsy: 0, null, undefined, NaN, '', " ",``, false
+  console.log(Boolean(false)):
+  console.log(Boolean(null));
+  console.log(!!0);
+  console.log(!!"");
+  console.log(Boolean("Hola mundo"));
+  console.log(Boolean(40));
+  console.log([]);
+  
+  
