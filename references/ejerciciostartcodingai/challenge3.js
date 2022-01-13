@@ -67,6 +67,7 @@ const convertTemperature = (temperature, target)=>{
     
     do{
      subtotal = prompt("Ingresa el valor del producto");
+      const parsedSubtotal= +subtotal;
       if(+subtotal){
     total += subtotal;  
     }
