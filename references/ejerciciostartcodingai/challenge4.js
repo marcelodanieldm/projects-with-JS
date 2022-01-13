@@ -6,4 +6,12 @@ console.log(firstElement);
 
 //acceder al ultimo
 console.log(miArray[2]);
-console.log(miArray[miArray.length -1]);
+const lastElement = miArray[miArray.length -1]
+console.log(lastElement);
+
+// buscar el indice de un elemento
+const elemento = "pedro";
+//con metodo indexOf
+const index = miArray.indexOf(elemento);
+console.log(index);
+
