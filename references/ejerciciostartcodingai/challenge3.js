@@ -27,3 +27,24 @@ alert(message);
 /* 2. Ingresar la temperatura y convertirla de grados Celsius a Farenheit
 y viceversa      
 */
+const convertTemperature = (temperature, target)=>{
+  const parsedTemp = +temperature;
+  const parsedTarget = +target.toLowerCase();
+  
+  if(!parsedTemp && parsedTemp !==0){
+    alert("el valor ingresado no es valido");
+    return;
+  }
+  
+  if(parsedTarget === "celsius"){
+    return ((parsedTemp - 32)*5)/9;
+    else if(parsedTarget === "farenheit"){
+    
+    }else{
+    alert("el formato ingresado no es valido");
+      return;
+    }
+  
+  }
+  }
+}
