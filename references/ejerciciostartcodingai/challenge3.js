@@ -51,3 +51,7 @@ const convertTemperature = (temperature, target)=>{
   const target = prompt("Ingresa a que unidad de medida queres convertir");
   const response = convertTemperature(temperature, target);
   
+  if(response !== undefined){
+   alert(`La temperatura en ${target.toLowerCase()} es ${response}`);
+  }
+  
