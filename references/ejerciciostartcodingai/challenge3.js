@@ -63,13 +63,16 @@ const convertTemperature = (temperature, target)=>{
   
   const calculateTotal = ()=>{
   let total = 0;
+   let subtotal;
+    
     do{
-    const subtotal = prompt("Ingresa el valor del producto");
+     subtotal = prompt("Ingresa el valor del producto");
       if(+subtotal){
-    total += subtotal;
-      
+    total += subtotal;  
     }
-    } while(subtotal.toLowerCase()==="total");
+    } 
+    
+    while(subtotal.toLowerCase()==="total");
     return total:
      
   };
