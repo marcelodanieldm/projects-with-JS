@@ -90,6 +90,7 @@ const convertTemperature = (temperature, target)=>{
   console.log(!!"");
   console.log(Boolean("Hola mundo"));
   console.log(Boolean(40));
-  console.log([]);
+  console.log(!![]);
+  console.log(!!{});
   
   
