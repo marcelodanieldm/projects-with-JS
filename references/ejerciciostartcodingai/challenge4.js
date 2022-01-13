@@ -35,6 +35,26 @@ console.log(miArray);
 miArray.shift();
 console.log(miArray);
 
+//splice remueve elementos del array
+miArray.splice(1,2);
+
+//metodos para iterar arrays
+const frutas = ["uva","naranja","melon","sandia","manzana"];
+console.log(frutas[0]);
+console.log(frutas[1];
+ 
+ //iterar sobre un array con un for
+ for(let i=0; i<=frutas.length;i++){
+       console.log(frutas[i]);
+}
+
+//iterar sobre un array con un foreach
+frutas.forEach((item) => {
+  console.log(item);
+});
+
+
+            
 
 
 
