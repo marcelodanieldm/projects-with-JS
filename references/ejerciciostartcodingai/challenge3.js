@@ -78,3 +78,5 @@ const convertTemperature = (temperature, target)=>{
      
   };
   console.log(calculatetotal());
+  const response = calculateTotal();
+  alert(response);
