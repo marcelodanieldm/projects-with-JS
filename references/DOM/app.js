@@ -163,7 +163,7 @@ function agregarItem(e){
 
     li.appendChild(botonDel);   
 
-    lista.appendChild(li);
+     lista.appendChild(li);
 }
 
 //Función para eliminar un Item de la lista
