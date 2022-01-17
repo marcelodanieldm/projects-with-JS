@@ -61,6 +61,21 @@ const newArrayWithMap = miArray.map((namme)=>{
 
 console.log(newArrayWithMap);
 
+//filter permite filtrar por parametro
+
+const namesArray = [
+ "Juan",
+ "Maria",
+ "Simon",
+ "Rosa",
+ "Maria"
+ ];
+
+const filteredArray= namesArray.filter((name)=> name==="Juan)";                                       
+console.log(filteredArray);
+
+
+
 
             
 
