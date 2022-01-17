@@ -59,6 +59,8 @@ const newArrayWithMap = miArray.map((namme)=>{
  
 });
 
+console.log(newArrayWithMap);
+
 
             
 
