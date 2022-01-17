@@ -53,6 +53,12 @@ frutas.forEach((item) => {
   console.log(item);
 });
 
+//con map, esto si devuelve. Este map recibe la funcion
+const newArray = miArray.map((namme)=>{
+`nombre = ${name}`;
+ 
+});
+
 
             
 
