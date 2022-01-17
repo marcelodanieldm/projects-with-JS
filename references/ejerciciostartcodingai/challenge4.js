@@ -78,10 +78,10 @@ console.log(filteredArray);
 const existingElement= namesArray.find((name)=> name==="Juan)";                                       
 console.log(existingElement);
 
-//sort ordena alfabeticamente
+//sort ordena alfabeticamente, lo mismo para numeros
 const orderedArray= namesArray.sort();
 console.log(orderedArray);
-//invertir el orden de sort al reves
+//invertir el orden de sort al reves, lo mismo para numeros
 console.log(orderedArray.reverse());
 
 
