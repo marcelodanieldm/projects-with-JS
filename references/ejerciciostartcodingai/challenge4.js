@@ -61,7 +61,7 @@ const newArrayWithMap = miArray.map((namme)=>{
 
 console.log(newArrayWithMap);
 
-//filter permite filtrar por parametro
+//filter permite filtrar por parametro. Devuelve un nuevo array con los elementos encontrados
 
 const namesArray = [
  "Juan",
@@ -73,6 +73,13 @@ const namesArray = [
 
 const filteredArray= namesArray.filter((name)=> name==="Juan)";                                       
 console.log(filteredArray);
+
+//find devuelve el primer valor que cumpla la condicion
+const existingElement= namesArray.find((name)=> name==="Juan)";                                       
+console.log(existingElement);
+
+
+
 
 
 
