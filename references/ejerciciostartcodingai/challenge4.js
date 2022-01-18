@@ -96,6 +96,14 @@ console.log("valor actual", valorActual);
 
 console.log(total);
 },x;
+
+//manera mas facil en relacion a lo anterior con reduce
+const total = numbers.reduce(
+   (acumulador, valorActual)=> acumulador + valorActual,
+ 0
+);
+
+console.log(total);
                             
 
 
