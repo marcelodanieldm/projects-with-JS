@@ -120,6 +120,7 @@ const invitados = ['Ana',
 console.log(invitados.length);
 
 //2 Informar por consola el nombre del ultimo invitado
+console.log([invitados.length -1 ]);
 //3 Agregar a Pedro a la lista
 //4 Un rato antes del comienzo de la fiesta, Evelina avisa que no puede ir. Generar una lista con los invitados que confirmaron su asistencia.
 //5 Por cada invitado, asignarle un numero de orden en la lista.
