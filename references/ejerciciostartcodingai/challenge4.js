@@ -108,6 +108,17 @@ console.log(total);
 
 //Hacer una list de invitaados en este orden: Ana, Gisela, Eugenia, Ignacio, Lorena, Evelina, Yesica, Mario
 //1 Informar por consola el numero de invitados
+const invitados = ['Ana',
+                   'Gisela',
+                   'Eugenia',
+                   'Ignacio',
+                   'Lorena',
+                   'Evelina',
+                   'Yesica',
+                   'Mario'
+                  ];
+console.log(invitados.length);
+
 //2 Informar por consola el nombre del ultimo invitado
 //3 Agregar a Pedro a la lista
 //4 Un rato antes del comienzo de la fiesta, Evelina avisa que no puede ir. Generar una lista con los invitados que confirmaron su asistencia.
