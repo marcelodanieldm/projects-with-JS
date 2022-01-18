@@ -84,6 +84,19 @@ console.log(orderedArray);
 //invertir el orden de sort al reves, lo mismo para numeros
 console.log(orderedArray.reverse());
 
+//reduce: 
+const numbers = [10, 20, 30, 40];
+cons total = numbers.reduce((acumulador, valorActual)=>{
+console.log("acumulador", acumulador);
+console.log("valor actual", valorActual);
+ 
+ console.log("aca termina la iteracion");
+ return acumulador+ valorActual;
+}, 0);
+
+console.log(total);
+},x;
+                            
 
 
 
