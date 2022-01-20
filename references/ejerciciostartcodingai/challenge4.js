@@ -129,6 +129,12 @@ const newList = list.filter((firstName)=> firstName !== "Eugenia"); //acá estan
 console.log(newList);
 
 //5 Por cada invitado, asignarle un numero de orden en la lista.
+const listWithOrderNumber = newList.map(
+ (firstName, index)=> `${firstName}. Orden:`${index}`
+ );
+ 
+ console.log(listWithOrderNumber);
+
 
 
 
