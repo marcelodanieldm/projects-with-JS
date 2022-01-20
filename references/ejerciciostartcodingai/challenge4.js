@@ -130,10 +130,26 @@ console.log(newList);
 
 //5 Por cada invitado, asignarle un numero de orden en la lista.
 const listWithOrderNumber = newList.map(
- (firstName, index)=> `${firstName}. Orden:`${index + 1}`
+ (firstName, index)=> `${firstName}. Orden: ${index + 1}`
  );
  
  console.log(listWithOrderNumber);
+ 
+ //6 sumar los platos de cada invitado
+const totalDishes = newList.reduce((accumulator, currentValue)=>{
+ if (currentValue==="Ana"){
+ return acummulator+3;
+ }else if(currentValue==="Lorena"){
+   return acummulator+1
+ }else if(currentValue==="Ignacio"){
+   return acummulator+1
+ }else{
+   return acummulator+4
+  }
+}, 0);
+
+console.log(totalDishes);
+ 
 
 
 
