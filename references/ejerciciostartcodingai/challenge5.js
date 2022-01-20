@@ -31,3 +31,4 @@ class Persona {
 const Alexis = new Persona("Alexis", "Buenos Aires", "Programador");
 const Juan = new Persona("Juan", "Rosario", "QA");;
 const Martin = new Persona("Maria", "Ushuaia", "Scrum Master");;
+console.log(Alexis, Juan, Martin):
