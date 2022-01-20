@@ -17,18 +17,25 @@ console.log(literalObject.job);
 //-------------------------------------
 //Se crea la clase Persona. Con tres parametros. El metodo constructor es lo que permite definir la estructura de la clase. Recibe tres datos: nombre, ciudad y trabajo. 
 //genera propiedades a traves de estos datos.
-//el this es para linkear el scope de la clase.
+//el this es para linkear el scope de la clase. En este caso en la instanciacion de Alexis, Juan y Martin
 
 class Persona {
     constructor (firstName, city, job);{
   this.firstName = firstName;
   this.city = city;
   this.job = job;
+    }     
+      saludar(){
+      console.log(`Hola soy ${this.firstName}`);  //creacion de un metodo dentro de la clase, se pueden hacer varias cosas.
+      }
    }
-}
+
 
 //instanciacion de clase Persona
 const Alexis = new Persona("Alexis", "Buenos Aires", "Programador");
 const Juan = new Persona("Juan", "Rosario", "QA");;
 const Martin = new Persona("Maria", "Ushuaia", "Scrum Master");;
 console.log(Alexis, Juan, Martin):
+
+//llamar al metodo con el objeto Juan
+console.log(Juan.saludar());
