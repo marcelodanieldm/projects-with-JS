@@ -6,3 +6,5 @@ console.log(literalObject);
 //otra forma
 const normalObject = new Object();
 console.log(normalObject);
+normalObject.firstName ="Juan";
+
