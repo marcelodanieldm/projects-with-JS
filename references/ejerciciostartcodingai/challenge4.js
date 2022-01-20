@@ -125,8 +125,12 @@ console.log([invitados.length -1 ]);
 invitados.push("Pedro");
 console.log(invitados);
 //4 Un rato antes del comienzo de la fiesta, Evelina avisa que no puede ir. Generar una lista con los invitados que confirmaron su asistencia.
+const newList = list.filter((firstName)=> firstName !== "Eugenia"); //acá estan todos los invitados menos Eugenia. En un nuevo array.
+console.log(newList);
+
 //5 Por cada invitado, asignarle un numero de orden en la lista.
-                            
+
+
 
 
 
