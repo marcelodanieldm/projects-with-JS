@@ -149,6 +149,10 @@ const totalDishes = newList.reduce((accumulator, currentValue)=>{
 }, 0);
 
 console.log(totalDishes);
+
+//acomodar los invitados por orden alfabetico
+const orderedNames = newList.sort();
+console.log(orderedNames);
  
 
 
