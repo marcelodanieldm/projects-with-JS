@@ -130,7 +130,7 @@ console.log(newList);
 
 //5 Por cada invitado, asignarle un numero de orden en la lista.
 const listWithOrderNumber = newList.map(
- (firstName, index)=> `${firstName}. Orden:`${index}`
+ (firstName, index)=> `${firstName}. Orden:`${index + 1}`
  );
  
  console.log(listWithOrderNumber);
