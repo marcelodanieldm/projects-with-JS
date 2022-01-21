@@ -39,3 +39,33 @@ console.log(Alexis, Juan, Martin):
 
 //llamar al metodo con el objeto Juan
 console.log(Juan.saludar());
+
+//----------------------------
+//herencia. Extension de subclass a partir de una clase principal
+class Animal{
+  constructor(name, age) {
+  this.name = name;
+  this.age = age;
+}
+  speak(){
+  console.log(`${this.name} hace un ruido`);
+  }
+}
+
+//con extend modifico el metodo de la clase.
+class Dog extends Animal{
+    speak(){
+     console.log(`$(this.name) ladra`);
+    }
+     sayAge(){
+     console.log(`$(this.name) tiene $(this.age) de edad`);
+     }
+  }
+} 
+
+const dog = new Dog("Rulo", 5);
+dog.speak();
+dog.sayAge();
+
+
+
