@@ -15,6 +15,6 @@ if(distance < 0){
     clearInterval(x);
     Document.getElementById("root").innerHTML="time expired";
 
-}
+ }
 
 }, 1000);
