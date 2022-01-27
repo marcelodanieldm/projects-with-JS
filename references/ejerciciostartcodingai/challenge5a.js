@@ -37,3 +37,7 @@ const developer = {
 Object.assing(person, developer);
 console.log(person);
 
+//Object.entries()
+const entries = Object.entries(person);
+console.log(entries) //devuelve un array que al mismo tiempo tiene otros arrays. Una matriz. 
+
