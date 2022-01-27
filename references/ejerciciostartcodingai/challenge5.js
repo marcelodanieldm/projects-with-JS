@@ -56,6 +56,7 @@ class Animal{
 class Dog extends Animal{
     speak(){
      console.log(`$(this.name) ladra`);
+      this.age = age;
     }
      sayAge(){
      console.log(`$(this.name) tiene $(this.age) de edad`);
