@@ -44,7 +44,7 @@ console.log(Juan.saludar());
 //herencia. Extension de subclass a partir de una clase principal
 class Animal{
   constructor(name, age) {
-    super() //trae el constructor de arriba
+    super(name) //trae el constructor de arriba
   this.name = name;
   this.age = age;
 }
