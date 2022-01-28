@@ -23,3 +23,8 @@ const futbol = new Sport('Futbol', true);
 futbol.sayName();
 futbol.sayIsTeamSport();
 
+const tenis = new Sport('Tenis', false);
+tenis.sayName();
+tenis.sayIsTeamSport();
+
+
