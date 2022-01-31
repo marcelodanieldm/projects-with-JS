@@ -16,3 +16,7 @@ const andreaProducts = object.keys(andreaBolsa);
 const martinProducts = object.keys(martinBolsa);
 
 console.log(andreaProduts, martinProducts);
+
+//colocando los productos de Andrea en la bolsa de Martin con object.assign. Encontes primero colocamos adonde va a ir, en este caso en la bolsa de Martin. Y luego el source es decir de donde viene, los productos de Andrea
+Object.assign(martinBolsa, andreaBolsa);
+console.log(martinBolsa); //se muestra todos los productos en la bolsa de Martin.
