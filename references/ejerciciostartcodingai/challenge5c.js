@@ -10,3 +10,9 @@ const andreaBolsa = {cerveza:2, sandwich:2, papafrita:1};
 const martinBolsa = {torta:1, gaseosa:1, galletitas:1};
 
 console.log(andreaBolsa, martinBolsa);
+
+//accedemos a los nombres de los productos con object.keys
+const andreaProducts = object.keys(andreaBolsa);
+const martinProducts = object.keys(martinBolsa);
+
+console.log(andreaProduts, martinProducts);
