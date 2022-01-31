@@ -20,3 +20,12 @@ console.log(andreaProduts, martinProducts);
 //colocando los productos de Andrea en la bolsa de Martin con object.assign. Encontes primero colocamos adonde va a ir, en este caso en la bolsa de Martin. Y luego el source es decir de donde viene, los productos de Andrea
 Object.assign(martinBolsa, andreaBolsa);
 console.log(martinBolsa); //se muestra todos los productos en la bolsa de Martin.
+
+//calcular el total de productos. Hay varias maneras.
+const productsName = Object.keys(martinBolsa);
+console.log(productsName);
+
+let totalProducts = 0;
+
+productsName.forEach((product)=> (totalProducts += MartinBolsa[product]));
+console.log(totalProducts);
