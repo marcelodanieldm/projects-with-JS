@@ -6,3 +6,7 @@
 //Realizar el cambio correspondiente para que los cambios esten todos en la bolsa de Martin.
 //Calcular el total de productos que llevaron al picnic.
 
+const andreaBolsa = {cerveza:2, sandwich:2, papafrita:1};
+const martinBolsa = {torta:1, gaseosa:1, galletitas:1};
+
+console.log(andreaBolsa, martinBolsa);
