@@ -1,0 +1,28 @@
+#wrapper{
+
+    margin:auto;
+    width:750px;
+    height:450px;
+    background-color: blueviolet;
+
+}
+#change-colour {
+
+    width: 260px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: brown;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 470px;
+    color: #fff;
+}
+
+h1 {
+
+    text-align: center;
+    padding-top: 145;
+    color: #fff;
+}
